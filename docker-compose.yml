@@ -35,6 +35,7 @@ services:
     networks:
       - notes-app-nw
 
+
   db:
     image: mysql
     container_name: "db_cont"
